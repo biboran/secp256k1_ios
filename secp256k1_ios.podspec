@@ -14,7 +14,7 @@ s.source           = { :git => 'https://github.com/shamatar/secp256k1_ios.git', 
 s.social_media_url = 'https://twitter.com/shamatar'
 
 s.module_name      = 'secp256k1_ios'
-s.ios.deployment_target = "9.0"
+s.ios.deployment_target = "8.0"
 s.osx.deployment_target = "10.10"
 s.pod_target_xcconfig = {
     'SWIFT_INCLUDE_PATHS' => '${PODS_ROOT}',
